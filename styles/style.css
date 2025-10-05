@@ -8,6 +8,7 @@ header {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    width: 100%;
     background-color: #F8F8F8;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
@@ -25,11 +26,101 @@ header {
 }
 
 
-a { color:#717171 ;
+a {
+    color: #717171;
     text-decoration: none;
     padding: 1rem;
 }
+
 a:hover {
     text-decoration: underline;
 }
+
 /* header užsidaro */
+.main {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding: 3rem;
+    width: 100%;
+}
+
+.article {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    width: 40%;
+    text-align: left;
+}
+
+article img {
+    object-fit: cover;
+    width: 100%;
+}
+
+article h1 {
+    text-align: left;
+    color: #6E83A9;
+}
+
+article h2 {
+    text-align: left;
+    color: #C6E4F4;
+}
+
+/* article užsidaro */
+
+.aside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    width: 15%;
+    background-color:#F9F9F9;
+    border: 2px solid #EBEBEB;
+   padding: 1.5rem;
+}
+
+.aside img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.aside-posts {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 1rem;
+}
+aside h2 {
+font-size: 1rem;
+  color: #1E3D6B;
+  margin-bottom: 1rem;
+  letter-spacing: 1px;
+}
+aside p {
+  font-size: 1rem;
+  color: #3E5C8A;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+/* aside užsidaro */
+/* article užsidaro */
+/* MAIN SKILTIS BAIGTA */
+
+
+footer {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #143774;
+    color: white;
+    padding: 2rem;
+}
+
+footer p {
+    padding: 0.5rem;
+}
